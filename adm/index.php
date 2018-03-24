@@ -24,7 +24,7 @@ ob_start();
 require("../inc/menu/adm.php");
 
 //view //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-echo '<table width="100%" height="300" border="0" cellspacing="3" cellpadding="0">
+echo '<table width="100%" height="500" border="0" cellspacing="3" cellpadding="0">
 <tr valign="top">
 <td>
 <h1>
