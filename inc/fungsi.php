@@ -28,8 +28,8 @@ function cegah($str)
 						"'1=1'",
 						"'/'",
 						"'!'",
-	//					"'<'",
-	//					"'>'",
+						"'<'",
+						"'>'",
 						"'\('",
 						"'\)'",
 						"';'",
@@ -43,8 +43,8 @@ function cegah($str)
 						"x1smdgan1x",
 						"xgmringx",
 						"xpentungx",
-	//					"xkkirix",
-	//					"xkkananx",
+						"xkkirix",
+						"xkkananx",
 						"xkkurix",
 						"xkkurnanx",
 						"xkommax",
@@ -68,8 +68,8 @@ function cegah2($str)
 						"'1=1'",
 						"'/'",
 						"'!'",
-	//					"'<'",
-	//					"'>'",
+						"'<'",
+						"'>'",
 						"'\('",
 						"'\)'",
 						"';'",
@@ -83,8 +83,8 @@ function cegah2($str)
 						"x1smdgan1x",
 						"xgmringx",
 						"xpentungx",
-	//					"xkkirix",
-	//					"xkkananx",
+						"xkkirix",
+						"xkkananx",
 						"xkkurix",
 						"xkkurnanx",
 						"xkommax",
@@ -271,12 +271,12 @@ function LoadTpl($template="")
 			}
 		else
 			{
-			die("<strong>File Template $filename Tidak Bisa Dibuka...!</strong>");
+			die("<strong>ERROR...!</strong>");
 			}
 		}
 	else
 		{
-		die("<strong>File Template $filename Tidak Ada., <br>Harap Dicek...!</strong>");
+		die("<strong>ERROR...!</strong>");
 		}
 	return $template;
 	}
@@ -286,7 +286,7 @@ function LoadTpl($template="")
 //xclose
 function xfree($str)
 	{
-	mysql_free_result($str);
+	//mysql_free_result($str);
 	}
 
 
@@ -294,7 +294,7 @@ function xfree($str)
 //xclose
 function xclose($str)
 	{
-	mysql_close($str);
+	//mysql_close($str);
 	}
 
 
@@ -1389,15 +1389,15 @@ $warnatext = "black";
 
 
 //META //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-$author = "Agus Muhajir, S.Kom (hajirodeon@yahoo.com, hajirodeon@gmail.com)";
-$description = "BIASAWAE Social Media";
-$url = "http://omahbiasawae.net";
-$keywords = "biasawae, social, media";
+$author = "";
+$description = "";
+$url = "";
+$keywords = "";
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
 //VERSI /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-$versi = "BIASAWAE-Social-Media v1.0";
+$versi = "v0.1";
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>

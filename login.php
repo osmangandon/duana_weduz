@@ -6,7 +6,7 @@ session_start();
 require("inc/config.php");
 require("inc/fungsi.php");
 require("inc/koneksi.php");
-$tpl = LoadTpl("template/cp_depan.html");
+$tpl = LoadTpl("template/login.html");
 
 
 
@@ -80,7 +80,7 @@ $("#ilogin").load("i_login.php?aksi=form");
 <?php
 echo '<table width="100%" border="0" cellpadding="5" cellspacing="5">
 <tr>
-<td valign="top">
+<td valign="top" align="center">
 
 
 <div id="iloginresult"></div>
@@ -91,9 +91,7 @@ echo '<table width="100%" border="0" cellpadding="5" cellspacing="5">
 	
 </td>
 </tr>
-</table>
-
-<hr>';
+</table>';
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>
 

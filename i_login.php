@@ -93,7 +93,7 @@ if ((isset($_GET['aksi']) && $_GET['aksi'] == 'simpan'))
 			$_SESSION['kd6_session'] = $ku_kd;
 			$_SESSION['username6_session'] = $euser;
 			$_SESSION['pass6_session'] = $epass;
-			$_SESSION['user_session'] = "ADMIN";
+			$_SESSION['adm_session'] = "ADMIN";
 			$_SESSION['hajirobe_session'] = $hajirobe;
 			
 			?>
@@ -127,12 +127,6 @@ if ((isset($_GET['aksi']) && $_GET['aksi'] == 'form'))
 	{
 	echo '<form name="formx2" id="formx2">
 
-	<p>
-	<img src="'.$sumber.'/img/support.png" width="24" height="24" border="0">
-	<h1>Login USER</h1>
-	</p>
-	
-	
 	<p>
 	Username :
 	<br>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 15, 2018 at 04:58 PM
+-- Generation Time: Mar 24, 2018 at 03:04 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -32,6 +32,13 @@ CREATE TABLE `adminx` (
   `passwordx` varchar(100) NOT NULL,
   `postdate` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `adminx`
+--
+
+INSERT INTO `adminx` (`kd`, `usernamex`, `passwordx`, `postdate`) VALUES
+('1234567890', 'admin', 'admin', '2018-03-22 00:00:00');
 
 -- --------------------------------------------------------
 
