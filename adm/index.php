@@ -75,6 +75,80 @@ REPORT TODAY : ...
 </td>
 </tr>
 </table>';
+
+?>
+
+
+
+
+
+<style>
+.btn-custom:hover {
+  background-color: grey;
+}
+
+
+</style>
+
+<script>
+$(document).ready(function(){
+    $("#btnHOME").click(function(){
+    	$("#ifrku2").load("<?php echo $sumber;?>/adm/i_index.php?aksi=btnHOME");
+    });
+    
+    
+    $("#btnSPASS").click(function(){
+    	$("#ifrku2").load("<?php echo $sumber;?>/adm/i_index.php?aksi=btnSPASS");
+    });
+    
+    $("#btnDPIECE").click(function(){
+    	$("#ifrku2").load("<?php echo $sumber;?>/adm/i_index.php?aksi=btnDPIECE");
+    });
+    
+    $("#btnDITEM").click(function(){
+    	$("#ifrku2").load("<?php echo $sumber;?>/adm/i_index.php?aksi=btnDITEM");
+    });
+    
+    $("#btnDUSER").click(function(){
+    	$("#ifrku2").load("<?php echo $sumber;?>/adm/i_index.php?aksi=btnDUSER");
+    });
+    
+    $("#btnDBUTCHER").click(function(){
+    	$("#ifrku2").load("<?php echo $sumber;?>/adm/i_index.php?aksi=btnDBUTCHER");
+    });
+    
+    $("#btnDCUSTOMER").click(function(){
+    	$("#ifrku2").load("<?php echo $sumber;?>/adm/i_index.php?aksi=btnDCUSTOMER");
+    });
+    
+    $("#btnDSLAUGHTER").click(function(){
+    	$("#ifrku2").load("<?php echo $sumber;?>/adm/i_index.php?aksi=btnDSLAUGHTER");
+    });
+    
+    $("#btnORDER").click(function(){
+    	$("#ifrku2").load("<?php echo $sumber;?>/adm/i_index.php?aksi=btnORDER");
+    });
+    
+    $("#btnREPORT").click(function(){
+    	$("#ifrku2").load("<?php echo $sumber;?>/adm/i_index.php?aksi=btnREPORT");
+    });
+    
+    $("#btnLOGOUT").click(function(){
+    	window.location.href = "<?php echo $sumber;?>/logout.php";
+    });
+    
+
+    
+    
+});
+</script>
+
+
+<div id="ifrku2"></div>
+
+
+
+<?php
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //isi
