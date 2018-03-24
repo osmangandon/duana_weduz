@@ -13,65 +13,25 @@ nocache;
 
 //nilai
 $filenya = "index.php";
-$judul = "STATISTICS";
+$judul = "Welcome....";
 $judulku = "$judul  [$adm_session]";
 
 
 //isi *START
 ob_start();
 
-//view //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-echo '<table width="100%" height="500" border="0" cellspacing="3" cellpadding="0">
-<tr valign="top">
-<td width="320">';
-
-
 //menu
 require("../inc/menu/adm.php");
 
-echo '</td>
-
-<td align="left" width="500">
+//view //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+echo '<table width="100%" height="500" border="0" cellspacing="3" cellpadding="0">
+<tr valign="top">
+<td>
 <h1>
-WELCOME TO SYSTEM
+ADMIN 
 </h1>
-<br>
-<h3>
-TOTAL USER : ...
-</h3>
-
-<h3>
-TOTAL BUTCHER : ...
-</h3>
-
-<h3>
-TOTAL ITEM : ...
-</h3>
-
-<h3>
-TOTAL CUSTOMER : ...
-</h3>
-
-<h3>
-TOTAL SLAUGHTER : ...
-</h3>
-
-<h3>
-TOTAL ORDER : ...
-</h3>
-
-</td>
-
-<td align="left">
-<h3>
-LAST ORDER : ...
-</h3>
-
-<h3>
-REPORT TODAY : ...
-</h3>
-
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 </td>
 </tr>
 </table>';
