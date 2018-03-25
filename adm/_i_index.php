@@ -1,7 +1,7 @@
 
 <style>
   .modal-header, h4, .close {
-      background-color: grey;
+      background-color: #5cb85c;
       color:white !important;
       text-align: center;
       font-size: 30px;
@@ -15,7 +15,55 @@
 
 
 <?php
-$footernya = "2018.";
+//jika home ////////////////////////////////////////////////////////////////////////////////////
+if ((isset($_GET['aksi']) && $_GET['aksi'] == 'btnHOME'))
+	{
+	?>
+	
+	<script>
+	$(document).ready(function(){
+	$('#myModal').modal();
+	});
+	</script>
+	
+	
+	
+	<div class="container">
+		
+		
+	  <!-- Modal -->
+	  <div class="modal fade" id="myModal" role="dialog">
+	    <div class="modal-dialog modal-lg">
+	    
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header" style="padding:35px 50px;">
+	          <h4>HOME</h4>
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        </div>
+	        <div class="modal-body" style="padding:40px 50px;">
+	
+				HOME
+				
+	
+	        </div>
+	        <div class="modal-footer">
+	
+				footer...
+	        </div>
+	      </div>
+	      
+	    </div>
+	  </div> 
+	</div>
+
+	<?php
+	exit();
+	}
+	
+
+
+
 
 
 //jika pass ////////////////////////////////////////////////////////////////////////////////////
@@ -40,19 +88,19 @@ if ((isset($_GET['aksi']) && $_GET['aksi'] == 'btnSPASS'))
 	    
 	      <!-- Modal content-->
 	      <div class="modal-content">
-	        <div class="modal-header" style="padding:5px 10px;">
+	        <div class="modal-header" style="padding:35px 50px;">
 	          <h4>CHANGE PASSWORD</h4>
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
 	        </div>
-	        <div class="modal-body" style="padding:20px 20px;">
+	        <div class="modal-body" style="padding:40px 50px;">
 	
-				<iframe frameborder="0" height="350" name="ifrku" width="700" scrolling="no" src="i_pass.php"></iframe>
+				CHANGE PASSWORD
 				
 	
 	        </div>
 	        <div class="modal-footer">
 	
-				<?php echo $footernya;?>
+				footer...
 	        </div>
 	      </div>
 	      
@@ -94,22 +142,21 @@ if ((isset($_GET['aksi']) && $_GET['aksi'] == 'btnDPIECE'))
 	    
 	      <!-- Modal content-->
 	      <div class="modal-content">
-	        <div class="modal-header" style="padding:5px 10px;">
+	        <div class="modal-header" style="padding:35px 50px;">
 	          <h4>DATA PIECE</h4>
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
 	        </div>
-	        <div class="modal-body" style="padding:20px 20px;">
+	        <div class="modal-body" style="padding:40px 50px;">
 	
-				<iframe frameborder="0" height="350" name="ifrku" width="700" scrolling="no" src="i_piece.php"></iframe>
+				DATA PIECE
 				
 	
 	        </div>
 	        <div class="modal-footer">
 	
-				<?php echo $footernya;?>
+				footer...
 	        </div>
 	      </div>
-
 	      
 	    </div>
 	  </div> 
@@ -143,26 +190,24 @@ if ((isset($_GET['aksi']) && $_GET['aksi'] == 'btnDITEM'))
 	  <div class="modal fade" id="myModal" role="dialog">
 	    <div class="modal-dialog modal-lg">
 	    
-	    
 	      <!-- Modal content-->
 	      <div class="modal-content">
-	        <div class="modal-header" style="padding:5px 10px;">
+	        <div class="modal-header" style="padding:35px 50px;">
 	          <h4>DATA ITEM</h4>
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
 	        </div>
-	        <div class="modal-body" style="padding:20px 20px;">
+	        <div class="modal-body" style="padding:40px 50px;">
 	
-				<iframe frameborder="0" height="350" name="ifrku" width="700" scrolling="no" src="i_item.php"></iframe>
+				DATA ITEM
 				
 	
 	        </div>
 	        <div class="modal-footer">
 	
-				<?php echo $footernya;?>
+				footer...
 	        </div>
 	      </div>
-
-
+	      
 	    </div>
 	  </div> 
 	</div>
@@ -199,26 +244,23 @@ if ((isset($_GET['aksi']) && $_GET['aksi'] == 'btnDUSER'))
 	  <div class="modal fade" id="myModal" role="dialog">
 	    <div class="modal-dialog modal-lg">
 	    
-	    
 	      <!-- Modal content-->
 	      <div class="modal-content">
-	        <div class="modal-header" style="padding:5px 10px;">
+	        <div class="modal-header" style="padding:35px 50px;">
 	          <h4>DATA USER</h4>
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
 	        </div>
-	        <div class="modal-body" style="padding:20px 20px;">
+	        <div class="modal-body" style="padding:40px 50px;">
 	
-				<iframe frameborder="0" height="350" name="ifrku" width="700" scrolling="no" src="i_user.php"></iframe>
+				DATA USER
 				
 	
 	        </div>
 	        <div class="modal-footer">
 	
-				<?php echo $footernya;?>
+				footer...
 	        </div>
 	      </div>
-
-
 	      
 	    </div>
 	  </div> 
@@ -256,23 +298,21 @@ if ((isset($_GET['aksi']) && $_GET['aksi'] == 'btnDBUTCHER'))
 	    
 	      <!-- Modal content-->
 	      <div class="modal-content">
-	        <div class="modal-header" style="padding:5px 10px;">
+	        <div class="modal-header" style="padding:35px 50px;">
 	          <h4>DATA BUTCHER</h4>
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
 	        </div>
-	        <div class="modal-body" style="padding:20px 20px;">
+	        <div class="modal-body" style="padding:40px 50px;">
 	
-				<iframe frameborder="0" height="350" name="ifrku" width="700" scrolling="no" src="i_butcher.php"></iframe>
+				DATA BUTCHER
 				
 	
 	        </div>
 	        <div class="modal-footer">
 	
-				<?php echo $footernya;?>
+				footer...
 	        </div>
 	      </div>
-
-
 	      
 	    </div>
 	  </div> 
@@ -310,23 +350,21 @@ if ((isset($_GET['aksi']) && $_GET['aksi'] == 'btnDCUSTOMER'))
 	    
 	      <!-- Modal content-->
 	      <div class="modal-content">
-	        <div class="modal-header" style="padding:5px 10px;">
+	        <div class="modal-header" style="padding:35px 50px;">
 	          <h4>DATA CUSTOMER</h4>
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
 	        </div>
-	        <div class="modal-body" style="padding:20px 20px;">
+	        <div class="modal-body" style="padding:40px 50px;">
 	
-				<iframe frameborder="0" height="350" name="ifrku" width="700" scrolling="no" src="i_customer.php"></iframe>
+				DATA CUSTOMER
 				
 	
 	        </div>
 	        <div class="modal-footer">
 	
-				<?php echo $footernya;?>
+				footer...
 	        </div>
 	      </div>
-
-
 	      
 	    </div>
 	  </div> 
@@ -367,23 +405,21 @@ if ((isset($_GET['aksi']) && $_GET['aksi'] == 'btnDSLAUGHTER'))
 	    
 	      <!-- Modal content-->
 	      <div class="modal-content">
-	        <div class="modal-header" style="padding:5px 10px;">
+	        <div class="modal-header" style="padding:35px 50px;">
 	          <h4>DATA SLAUGHTER</h4>
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
 	        </div>
-	        <div class="modal-body" style="padding:20px 20px;">
+	        <div class="modal-body" style="padding:40px 50px;">
 	
-				<iframe frameborder="0" height="350" name="ifrku" width="700" scrolling="no" src="i_slaughter.php"></iframe>
+				DATA SLAUGHTER
 				
 	
 	        </div>
 	        <div class="modal-footer">
 	
-				<?php echo $footernya;?>
+				footer...
 	        </div>
 	      </div>
-
-
 	      
 	    </div>
 	  </div> 
@@ -425,22 +461,21 @@ if ((isset($_GET['aksi']) && $_GET['aksi'] == 'btnORDER'))
 	    
 	      <!-- Modal content-->
 	      <div class="modal-content">
-	        <div class="modal-header" style="padding:5px 10px;">
+	        <div class="modal-header" style="padding:35px 50px;">
 	          <h4>DATA ORDER</h4>
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
 	        </div>
-	        <div class="modal-body" style="padding:20px 20px;">
+	        <div class="modal-body" style="padding:40px 50px;">
 	
-				<iframe frameborder="0" height="350" name="ifrku" width="700" scrolling="no" src="i_order.php"></iframe>
+				DATA ORDER
 				
 	
 	        </div>
 	        <div class="modal-footer">
 	
-				<?php echo $footernya;?>
+				footer...
 	        </div>
 	      </div>
-
 	      
 	    </div>
 	  </div> 
@@ -481,23 +516,21 @@ if ((isset($_GET['aksi']) && $_GET['aksi'] == 'btnREPORT'))
 	    
 	      <!-- Modal content-->
 	      <div class="modal-content">
-	        <div class="modal-header" style="padding:5px 10px;">
+	        <div class="modal-header" style="padding:35px 50px;">
 	          <h4>DATA REPORT</h4>
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
 	        </div>
-	        <div class="modal-body" style="padding:20px 20px;">
+	        <div class="modal-body" style="padding:40px 50px;">
 	
-				<iframe frameborder="0" height="350" name="ifrku" width="700" scrolling="no" src="i_report.php"></iframe>
+				DATA REPORT
 				
 	
 	        </div>
 	        <div class="modal-footer">
 	
-				<?php echo $footernya;?>
+				footer...
 	        </div>
 	      </div>
-
-
 	      
 	    </div>
 	  </div> 

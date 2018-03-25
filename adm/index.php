@@ -13,7 +13,7 @@ nocache;
 
 //nilai
 $filenya = "index.php";
-$judul = "STATISTICS";
+$judul = "SLAUGHTER SYSTEM :  OASIS LIVE STOCK";
 $judulku = "$judul  [$adm_session]";
 
 
